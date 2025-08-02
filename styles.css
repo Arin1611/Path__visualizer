@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: auto; 
+  background-color: rgb(18, 47, 72);
+  /* background-image: url("bbb.jpg"); */
+}
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  background-color: rgb(18, 47, 72);
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-top: solid 3px turquoise;
+  border-bottom: solid 3px turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+footer svg {
+  width: 30px;
+  height: 30px;
+  fill: rgb(146, 146, 146);
+  transition: all 0.3s ease-in-out;
+}
+
+footer a {
+  text-decoration: none;
+  color: cyan;
+}
+footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer svg:hover {
+  fill: whitesmoke;
+  cursor: pointer;
+}
+footer .projRepoClass {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .projRepoClass h3 {
+  margin-right: 20px;
+}
+footer h3 {
+  font-size: 15px;
+}

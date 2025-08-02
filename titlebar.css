@@ -1,0 +1,83 @@
+.titleBar {
+  padding: 20px;
+  width: 15%;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 3px turquoise;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+}
+.selectionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.selectionBox select {
+  /* padding: 5px 80px 5px 0px; */
+  margin-top: 15px;
+  width: 80%;
+  height: 30px;
+  outline: none;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.algorithm option {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.buttons button {
+  margin-top: 10px;
+  padding: 12px 10px;
+  border: solid 2px whitesmoke;
+  background: none;
+  border-radius: 2px;
+  color: whitesmoke;
+  font-family: inherit;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.buttons button:disabled {
+  cursor: default;
+  border: solid 2px #fff9;
+  color: #fff9;
+}
+.buttons button:not([disabled]):hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.selectionBoxTitle {
+  margin-right: 5px;
+  font-weight: 50;
+}
+
+.buttons {
+  height: 40%;
+}
+
+h1,
+h2,
+h3 {
+  color: aliceblue;
+}

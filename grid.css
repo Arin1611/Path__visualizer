@@ -1,0 +1,15 @@
+#grid {
+  margin-bottom: 10px;
+  border: 3px solid turquoise;
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+}
+#grid-layer {
+  margin-bottom: 10px;
+  border: 3px solid turquoise;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  pointer-events: none;
+}

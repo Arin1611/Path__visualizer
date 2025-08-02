@@ -1,0 +1,116 @@
+.mainn {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+}
+
+.instplusmain{
+  display: flex;
+  padding-left: 10px;
+  border: 100px;
+  width: 100%;
+}
+
+.instructionBar {
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 4px;
+  padding: 10px ;
+
+  background-color: rgb(37, 37, 37);
+  border: solid 3px turquoise;
+}
+
+.instructionBar p {
+  color: aliceblue;
+}
+
+.aaa {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.colorr {
+  margin-top: 10px;
+  width: auto;
+  /* background-color: blue; */
+  border-style: dotted;
+  border-color: turquoise;
+  border-width: 2px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.messageplusmain {
+  width: 75%;
+  border: solid 3px turquoise;
+}
+
+.message {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.message p {
+  color: aliceblue;
+}
+
+.mouseInstruction {
+  width: 100%;
+  margin-top: 10px;
+  /* border: 10px black !important; */
+  display: flex;
+  justify-content: center;
+}
+.mouseInstruction p {
+  font-size: 10px;
+  margin-left: 7px;
+}
+
+.mouseInstruction img {
+  height: 50px;
+  width: 30px;
+}
+
+.nodeInstruction {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
+}
+.nodeInstruction .box {
+  width: 20px;
+  height: 20px;
+  border: solid 2px black;
+}
+.nodeInstruction #start {
+  background-color: rgb(255, 0, 0);
+}
+.nodeInstruction #end {
+  background-color: rgb(51, 255, 0);
+}
+.nodeInstruction #visited {
+  background-color: rgb(100, 255, 255);
+}
+.nodeInstruction #notVisited {
+  background-color: rgb(255, 255, 255);
+}
+.nodeInstruction #wall {
+  background-color: rgb(127, 127, 127);
+}
+.nodeInstruction #path {
+  background-color: rgb(255, 255, 4);
+}
+.nodeInstruction #discovered {
+  background-color: rgb(4, 180, 255);
+}
+.nodeInstruction p {
+  font-size: 10px;
+  margin-left: 10px;
+}
